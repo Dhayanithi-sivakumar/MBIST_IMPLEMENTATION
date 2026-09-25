@@ -1,7 +1,5 @@
 # BIST (Built-In Self-Test) — Verilog Implementation
 
-> **MSPAND Technologies Pvt. Ltd.**  
-> Author: Vaideeshwaran V | Version: v1.1 | Year: 2026
 
 A complete RTL implementation of a **Built-In Self-Test (BIST)** architecture in Verilog, including pattern generation via LFSR, a 1×4 DEMUX as the Circuit Under Test (CUT), response analysis, and a top-level controller.
 
@@ -192,18 +190,3 @@ gtkwave top.vcd
 
 ---
 
-## Revision History
-
-| Version | Date | Author | Description |
-|---------|------|--------|-------------|
-| v0.1 | 18/06/26 | Vaideeshwaran V | Initial design (res_anal, top) |
-| v0.1 | 19/06/26 | Vaideeshwaran V | Added bist_contr, demux1x4 |
-| v0.1 | 20/06/26 | Vaideeshwaran V | Added LFSR |
-| v0.1 | 22/06/26 | Vaideeshwaran V | Added tb_top |
-| v1.1 | 22/06/26 | Vaideeshwaran V | Integration and top-level wiring |
-
----
-
-## License
-
-Copyright © 2026 MSPAND Technologies Pvt. Ltd. All rights reserved.
